@@ -1,0 +1,139 @@
+CONFIGURATION FILE FOR PANDA FE
+=============================================
+Explanation: In this file consecutive settings for ASIC are saved. "settings for TCA" means settings for
+asic number A (A can be of value 1 or 2), connected to tdc via cable connection number C (1-4) where
+tdc is described by number T (1-...). After the line "settings for TCA" the settings go as following:
+Amplification, Peaking time, TC1C2..0, TC1R2..0, TC2C2..0, TC2R2..0, For threshold and baseline given
+number means exact value, whereas for the rest of the settings given number determines the position in
+drop down list in web GUI.
+=============================================
+trb tdc addresses:
+e000
+settings for 111
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 112
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 121
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 122
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 131
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 132
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 141
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+settings for 142
+3
+3
+2
+3
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
